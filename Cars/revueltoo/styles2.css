@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #444;
+}
+
+section {
+    min-height: 85vh;
+}
+
+.text {
+    position: relative;
+    padding-top: 100px;
+}
+.home-logo {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.text h1 {
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    top: 125px;
+    left: 30px;
+    color: red;
+}
+.text p {
+    font-size: 25px;
+    color: rgb(253, 253, 93);
+    position: absolute;
+    top: 200px;
+    left: 0;
+    font-style: italic;
+    padding: 25px;
+    width: 850px;
+}
+
+.learn-more {
+    position: absolute;
+    top: 575px;
+    left: 2.5%;
+    color: black;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 6px 15px;
+    cursor: pointer;
+    font-size: 1.5em;
+    border: 2px solid;
+    transition: transform .6s ease-in-out;
+}
+
+.learn-more:hover {
+    color: aqua;
+    background-color: #555;
+    border-color: aqua;
+    transform: scale(1.05);
+}
+
+.learn-more:not(:hover) {
+    color: black;
+    background-color: #555;
+    border: 2px solid black;
+}
+
+.images {
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.img1 img {
+    width: 700px;
+    height: auto;
+    filter: drop-shadow(0px 0px 3px rgb(90, 255, 90));
+    border-radius: 15px;
+}
+
+
+.footer {
+    text-align: center;
+    position: relative;
+}
+
+.footer a {
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: -30px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: aqua;
+    border: 2px solid black;
+}
