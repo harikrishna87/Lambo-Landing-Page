@@ -48,9 +48,18 @@ section {
     width: 850px;
 }
 
-.learn-more {
+.text h2 {
     position: absolute;
     top: 575px;
+    left: 47%;
+    font-size: 30px;
+    font-style: italic;
+    color: aqua;
+}
+
+.learn-more {
+    position: absolute;
+    top: 625px;
     left: 47%;
     color: black;
     background-color: transparent;
@@ -125,9 +134,18 @@ section {
     width: 850px;
 }
 
-.learn-more1 {
+.text1 h2 {
     position: absolute;
     top: 575px;
+    left: 2.5%;
+    font-size: 30px;
+    font-style: italic;
+    color: aqua;
+}
+
+.learn-more1 {
+    position: absolute;
+    top: 625px;
     left: 2.5%;
     color: black;
     background-color: transparent;
@@ -202,9 +220,18 @@ section {
     width: 850px;
 }
 
+.text2 h2 {
+    position: absolute;
+    top: 590px;
+    left: 47%;
+    font-size: 30px;
+    font-style: italic;
+    color: aqua;
+}
+
 .learn-more2 {
     position: absolute;
-    top: 600px;
+    top: 640px;
     left: 47%;
     color: black;
     background-color: transparent;
