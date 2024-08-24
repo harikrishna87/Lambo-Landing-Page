@@ -8,113 +8,118 @@
     <title>BookNow Form</title>
     <style>
         body {
-    background-image: url(https://wallpapers.com/images/hd/new-lamborghini-aventador-s-roadster-o393fanbceuh6gsf.jpg);
-    background-size: cover;
-    object-position: center top;
-}
-.container {
-    margin: 100px 0px 20px 0px;
-}
-.contact {
-    background-color: transparent;
-    box-shadow: 3px 3px 30px 3px #f6dada;
-    margin: auto;
-    width: 45%;
-    padding: 40px 0px;
-    border-radius: 12px;
-}
+            background-image: url(https://wallpapers.com/images/hd/new-lamborghini-aventador-s-roadster-o393fanbceuh6gsf.jpg);
+            background-size: cover;
+            object-position: center top;
+            background-repeat: no-repeat;
+        }
 
-.contact h2 {
-    color: #0ef;
-    text-align: center;
-    margin: 0;
-    font-size: 40px;
-}
+        .container {
+            margin: 100px 0px 20px 0px;
+        }
 
-.login1 {
-    margin-top: 10px;
-    padding-top: 10px;
-}
-.login1 input{
-    background-color: transparent;
-    width: 85%;
-    margin: 10px 50px;
-    height: 35px;
-    border-radius: 10px;
-    border: 1px solid white;
-    font-size: 18px;
-    padding: 10px;
-}
+        .contact {
+            background-color: transparent;
+            box-shadow: 3px 3px 30px 3px #f6dada;
+            margin: auto;
+            width: 45%;
+            padding: 40px 0px;
+            border-radius: 12px;
+        }
 
-.login1 label {
-    font-size: 25px;
-    font-weight: 500;
-    padding-left: 50px;
-    color: #0ef;
-}
+        .contact h2 {
+            color: #0ef;
+            text-align: center;
+            margin: 0;
+            font-size: 40px;
+        }
 
-.login2 {
-    margin-top: 20px;
-}
+        .login1 {
+            margin-top: 10px;
+            padding-top: 10px;
+        }
 
-.login2 input {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-    margin-left: 8%;
-}
+        .login1 input {
+            background-color: transparent;
+            width: 85%;
+            margin: 10px 50px;
+            height: 35px;
+            border-radius: 10px;
+            border: 1px solid white;
+            font-size: 18px;
+            padding: 10px;
+        }
 
-.login2 label {
-    font-size: 25px;
-    padding-left: 8px;
-    color: white;
-    vertical-align: middle;
-}
+        .login1 label {
+            font-size: 25px;
+            font-weight: 500;
+            padding-left: 50px;
+            color: #0ef;
+        }
 
-.login2 label span {
-    color: #0ef;
-}
+        .login2 {
+            margin-top: 20px;
+        }
 
-.login1 textarea {
-    background-color: transparent;
-    width: 85%;
-    margin: 10px 50px;
-    height: 35px;
-    border-radius: 10px;
-    border: 1px solid white;
-    font-size: 18px;
-    padding: 10px;
-}
+        .login2 input {
+            width: 25px;
+            height: 25px;
+            vertical-align: middle;
+            margin-left: 8%;
+        }
 
-.login1 select {
-    background-color: transparent;
-    width: 88%;
-    margin: 10px 50px;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px solid white;
-    font-size: 18px;
-    padding: 10px;
-    color: red;
-}
+        .login2 label {
+            font-size: 25px;
+            padding-left: 8px;
+            color: white;
+            vertical-align: middle;
+        }
 
-.login1 option:focus {
-    background-color: transparent;
-}
-button {
-    width: 40%;
-    margin: 20px 50px;
-    font-size: 25px;
-    font-weight: 600;
-    border: 1px solid white;
-    background-color: transparent;
-    color: aqua;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-top: 30px;
-}
+        .login2 label span {
+            color: #0ef;
+        }
+
+        .login1 textarea {
+            background-color: transparent;
+            width: 85%;
+            margin: 10px 50px;
+            height: 35px;
+            border-radius: 10px;
+            border: 1px solid white;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        .login1 select {
+            background-color: transparent;
+            width: 88%;
+            margin: 10px 50px;
+            height: 40px;
+            border-radius: 10px;
+            border: 1px solid white;
+            font-size: 18px;
+            padding: 10px;
+            color: red;
+        }
+
+        .login1 option:focus {
+            background-color: transparent;
+        }
+
+        button {
+            width: 40%;
+            margin: 20px 50px;
+            font-size: 25px;
+            font-weight: 600;
+            border: 1px solid white;
+            background-color: transparent;
+            color: aqua;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
     </style>
 </head>
 
@@ -123,11 +128,11 @@ button {
         <div class="container">
             <div class="contact">
                 <h2>Book Now</h2>
-                <form action="../urus/toast.html">
+                <form action="../urus/toast.html" method="post">
                     <div class="login1">
                         <label for="firstname">First Name</label>
-                        <input type="text" name="firstname" id="firstname" required> 
-                        
+                        <input type="text" name="firstname" id="firstname" required>
+
                         <label for="lastname">Last Name</label>
                         <input type="text" name="lastname" id="lastname" required>
 

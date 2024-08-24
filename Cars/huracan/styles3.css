@@ -90,6 +90,10 @@ section {
     height: auto;
     filter: drop-shadow(0px 0px 3px rgb(33, 247, 244));
     border-radius: 15px;
+    transition: transform 0.6s ease-in-out;
+}
+.img1 img:hover {
+    transform: scale(1.05);
 }
 
 .text1 {
@@ -163,6 +167,11 @@ section {
     height: auto;
     filter: drop-shadow(0px 0px 3px rgb(142, 73, 73));
     border-radius: 15px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.img2 img:hover {
+    transform: scale(1.05);
 }
 
 
@@ -237,6 +246,11 @@ section {
     height: auto;
     filter: drop-shadow(0px 0px 3px rgb(248, 18, 14));
     border-radius: 15px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.img3 img:hover {
+    transform: scale(1.05);
 }
 
 .text3 {
@@ -310,6 +324,11 @@ section {
     height: auto;
     filter: drop-shadow(0px 0px 3px yellow);
     border-radius: 15px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.img4 img:hover {
+    transform: scale(1.05);
 }
 
 .custom-dropdown {
